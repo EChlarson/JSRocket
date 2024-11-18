@@ -29,10 +29,25 @@
    position: absolute;
    left: 50%;
    bottom: 20px;
-   width: 20px;
-   height: 100px;
-   background-color: blue;
+   width: 180px;
+   height: 288px;
+   margin-left: -90px;
+   background: url(../IMG/rocket-01.png) no-repeat center center;
    transition: bottom 10000ms;
+}
+
+body.body-state2 .rocket {
+   background-image: url(../IMG/rocket-02.png);
+}
+
+body.body-state3 .rocket,
+body.body-state4 .rocket {
+   background-image: url(../IMG/rocket-03.png);
+}
+
+body.body-state5 .rocket {
+   background-image: url(../IMG/rocket-04.png);
+   
 }
 
 body.body-state1 .rocket {
